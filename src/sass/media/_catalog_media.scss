@@ -1,0 +1,14 @@
+@media (max-width: 767px) {
+    .catalog {
+        &__content {
+            display: none;
+            padding: 0px 50px;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            &_active {
+                display: flex;
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+@import 'base/variables';
+@import 'base/mixins';
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    position: relative;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+@import 'blocks/promo';
+@import 'blocks/menu';

@@ -1,0 +1,45 @@
+@media (max-width: 767px) {
+    .carousel {
+        padding: 108px 0;
+        &__inner {
+            position: relative;
+            width: 750px;
+            margin: 0 auto;
+        }
+        .prev, .next {
+            display: none;
+        }
+        .next  {
+            right: 40%;
+            left: auto;
+        }
+        .tns-item {
+            img {
+                display: block;
+                margin: 0 auto;
+                width: 450px;
+            }
+        }
+        .tns-nav {
+            // position: absolute;
+            // top: 100%;
+            display: flex;
+            justify-content: space-between;
+            width: 70px;
+            margin: 0 auto;
+            //transform: translateX(-50%);
+            button {
+                margin: 5px 5px;
+                padding: 0px 0px;
+                height: 10px;
+                width: 10px;
+                border-radius: 100%;
+                border: none;
+                background-color: $main-color;
+            }
+            .tns-nav-active {
+                background-color: #000;
+            }
+        }
+    }
+}

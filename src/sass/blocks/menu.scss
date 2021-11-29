@@ -1,0 +1,98 @@
+.menu {
+    padding: 150px 0px 100px 0px;
+    max-height: 960px;
+    &_title {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 48px;
+        color: #000000;
+    }
+    &_text {
+        margin-top: 70px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #000000;
+        span {
+            color: $main-color;
+            font-weight: bold;
+        }
+    }
+    &_program {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        &__item {
+            padding: 25px 20px;
+            width: 200px;
+            height: 92px;
+            background: #FFFFFF;
+            box-shadow: 0px 15px 50px rgba(57, 57, 57, 0.1);
+            border-radius: 10px;
+            &_title {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 21px;
+                color: #000000;
+            }
+            &_subtitle {
+                margin-top: 10px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                color: #363636;
+            }
+        }
+    }
+    &_calories {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        width: 525px;
+        &__item {
+            width: 97px;
+            display: flex;
+            justify-content: space-between;
+            height: 33px;
+            &_info {
+                width: 54px;
+                span {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 21px;
+                    color: #363636;
+                }
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;
+                color: #000000;
+            }
+        }
+    }
+    &_week {
+        &__title {
+            margin-top: 70px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            color: #000000;
+        }
+        &__wrapper {
+            padding-left: 0px;
+            margin-top: 30px;
+            width: 830px;
+            display: flex;
+            justify-content: space-between;
+            &_day {
+                list-style-type: none;
+            }
+        }
+    }
+}
