@@ -1,12 +1,12 @@
 .menu {
     padding: 150px 0px 100px 0px;
-    max-height: 960px;
+    min-height: 960px;
     &_title {
         font-style: normal;
         font-weight: bold;
         font-size: 48px;
         line-height: 48px;
-        color: #000000;
+        color: $black-color;
     }
     &_text {
         margin-top: 70px;
@@ -14,7 +14,7 @@
         font-weight: normal;
         font-size: 18px;
         line-height: 21px;
-        color: #000000;
+        color: $black-color;
         span {
             color: $main-color;
             font-weight: bold;
@@ -36,7 +36,7 @@
                 font-weight: bold;
                 font-size: 18px;
                 line-height: 21px;
-                color: #000000;
+                color: $black-color;
             }
             &_subtitle {
                 margin-top: 10px;
@@ -44,7 +44,7 @@
                 font-weight: normal;
                 font-size: 14px;
                 line-height: 16px;
-                color: #363636;
+                color: $grey-color;
             }
         }
     }
@@ -65,13 +65,13 @@
                     font-weight: 700;
                     font-size: 18px;
                     line-height: 21px;
-                    color: #363636;
+                    color: $grey-color;
                 }
                 font-style: normal;
                 font-weight: normal;
                 font-size: 14px;
                 line-height: 16px;
-                color: #000000;
+                color: $black-color;
             }
         }
     }
@@ -82,7 +82,7 @@
             font-weight: 500;
             font-size: 24px;
             line-height: 28px;
-            color: #000000;
+            color: $black-color;
         }
         &__wrapper {
             padding-left: 0px;
@@ -92,6 +92,72 @@
             justify-content: space-between;
             &_day {
                 list-style-type: none;
+            }
+        }
+    }
+    &_meal {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        &__block {
+            padding: 25px 25px;
+            width: 310px;
+            height: 242px;
+            background: #FFFFFF;
+            box-shadow: 0px 30px 60px rgba(57, 57, 57, 0.1);
+            border-radius: 30px;
+            &_title {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 21px;
+                color: $main-color
+            }
+        }
+    }
+    &_subscriptions {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__title {
+            width: 175px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            color: $black-color;
+        }
+        &__item {
+            padding: 20px 20px;
+            width: 150px;
+            height: 100px;
+            left: 722px;
+            top: 1713px;
+            border: 1px solid rgba(24, 154, 76, 0.25);
+            border-radius: 10px;
+            &_days {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 16px;
+                color: $black-color;
+            }
+            &_price {
+                margin-top: 8px;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 16px;
+                color: $black-color;
+            }
+            &_subprice {
+                margin-top: 8px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 12px;
+                color: $black-color;
             }
         }
     }
